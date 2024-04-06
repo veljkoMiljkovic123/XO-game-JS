@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-container{
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 16px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    box-shadow: 0 0 16px;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message{
+    width: 600px;
+    margin: 40px auto;
+    font-size: 80px;
+    color: white;
+    background-color: red;
+    text-align: center;
+}
